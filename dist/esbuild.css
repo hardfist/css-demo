@@ -2,3 +2,9 @@
 .before {
   background-color: blue;
 }
+
+/* src/index.css */
+.middle {
+  background-color: orange;
+}
+@import url(./after.css);

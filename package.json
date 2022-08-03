@@ -6,7 +6,7 @@
   "scripts": {
     "build:all": "npm run build:webpack && npm run build:esbuild",
     "build:webpack": "webpack",
-    "build:esbuild": "esbuild src/before.css --bundle --outfile=dist/esbuild.css"
+    "build:esbuild": "esbuild src/index.css --bundle --outfile=dist/esbuild.css"
   },
   "keywords": [],
   "author": "",
