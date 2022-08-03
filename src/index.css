@@ -1,0 +1,5 @@
+@import url('./before.css');
+.middle{
+  background-color: orange;
+}
+@import url('./after.css');
