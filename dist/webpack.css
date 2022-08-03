@@ -1,0 +1,11 @@
+.before {
+  background-color: blue;
+}
+.after {
+  background-color: red;
+}
+.middle{
+  background-color: orange;
+}
+
+head{--webpack-css-demo-webpack:\.\/src\/before\.css,\.\/src\/after\.css,\.\/src\/index\.css;}
